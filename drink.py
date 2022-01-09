@@ -1,9 +1,11 @@
+# Import the MenuItem class using 'from' 'import'
+# Import the MenuItem class using 'from' 'import'
 from menu_item import MenuItem
 
+# Inherit the MenuItem class and define the Food class
 class Drink(MenuItem):
-    def __init__(self, name, price, volume):
-        super().__init__(name, price)
-        self.volume = volume
+    pass
 
-    def info(self):
-        return self.name + ': $' + str(self.price) + ' (' + str(self.volume) + 'mL)'
+
+# Inherit the MenuItem class and define the Drink class
+
